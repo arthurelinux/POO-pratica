@@ -7,11 +7,11 @@ class Carro{
     public function getModelo(){
         return $this->modelo;
     }
-    public function setModelo($modelo){
+    public function setModelo($vmodelo){
         $this->modelo = $modelo;
     }
 
-    public function getVaor(){
+    public function getValor(){
         return $this->valor;
     }
     public function setValor($valor){
