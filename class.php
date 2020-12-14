@@ -9,6 +9,6 @@ class Pessoas{
     }
 }
 
-$glaucio = new Pessoas();
-$glaucio->nome="Grlaucio";
-echo $glaucio->falar();
+$arthur = new Pessoas();
+$arthur->nome="arthur";
+echo $arthur->falar();
