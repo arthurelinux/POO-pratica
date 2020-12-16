@@ -7,7 +7,7 @@ class Carro{
     public function getModelo(){
         return $this->modelo;
     }
-    public function setModelo($vmodelo){
+    public function setModelo($modelo){
         $this->modelo = $modelo;
     }
 
