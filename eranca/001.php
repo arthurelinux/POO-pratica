@@ -14,7 +14,7 @@ class CPF extends Documento {
     public function valiadar(){
         $numero = $this->getNumero();
         if(strlen($numero) == 11){
-            echo "valido";
+            echo "válido";
 
         } else {
             echo "não é válido";
